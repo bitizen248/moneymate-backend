@@ -1,0 +1,6 @@
+import moneymate_main.views.check
+import moneymate_main.views.rooms_and_users
+import moneymate_main.views.transactions
+import moneymate_main.views.vk_activation
+import moneymate_main.views.vk_integration
+from moneymate_main.views.vk_activation import VkRegistration
