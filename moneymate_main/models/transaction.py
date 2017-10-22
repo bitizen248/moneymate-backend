@@ -3,7 +3,8 @@ import time
 from django.db import models
 from rest_framework import serializers
 
-from moneymate_main.models import VKUserSerializer, RoomSerializer
+from moneymate_main.models.room import RoomSerializer
+from moneymate_main.models.vk_user import VKUserSerializer
 
 
 class Transaction(models.Model):

@@ -3,7 +3,9 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 from moneymate_main.auth import Auth
-from moneymate_main.models import Check, Room, VKUser, Transaction, CheckSerializer, TransactionsSerializer
+from moneymate_main.models import Check, Room, VKUser, Transaction
+from moneymate_main.models.check import CheckSerializer
+from moneymate_main.models.transaction import TransactionsSerializer
 
 
 @api_view(['GET'])

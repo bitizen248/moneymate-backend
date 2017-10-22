@@ -3,8 +3,6 @@ import time
 from django.db import models
 from rest_framework import serializers
 
-from moneymate_main.models import RoomSerializer, VKUserSerializer
-
 
 class Check(models.Model):
     """
@@ -55,9 +53,9 @@ class CheckSerializer(serializers.ModelSerializer):
     Сериализатор объектов класса Check в JSON
     """
 
-    creator = VKUserSerializer()
+    # creator = VKUserSerializer()
     created = serializers.IntegerField(source='getTimestamp', read_only=True)
-    room = RoomSerializer()
+    # room = RoomSerializer()
 
     def __init__(self, *args, **kwargs):
         """

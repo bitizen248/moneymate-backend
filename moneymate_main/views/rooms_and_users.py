@@ -6,8 +6,9 @@ from rest_framework.response import Response
 
 from moneymate import settings
 from moneymate_main.auth import Auth
-from moneymate_main.models import VKUserSerializer, VKUser, Room, Message, Transaction
+from moneymate_main.models import VKUser, Room, Message, Transaction
 from moneymate_main.models.message import MessageSerializer
+from moneymate_main.models.vk_user import VKUserSerializer
 
 
 @api_view(['GET'])

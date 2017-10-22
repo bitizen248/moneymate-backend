@@ -1,7 +1,7 @@
 from django.db import models
 from rest_framework import serializers
 
-from moneymate_main.models import VKUserSerializer
+from moneymate_main.models.vk_user import VKUserSerializer
 
 
 class Room(models.Model):
