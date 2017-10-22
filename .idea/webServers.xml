@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="54cebf03-34f8-4493-874d-6aa11e2340ae" name="Selectel VK HACK" url="http://77.244.216.58">
+        <fileTransfer host="77.244.216.58" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/root" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
